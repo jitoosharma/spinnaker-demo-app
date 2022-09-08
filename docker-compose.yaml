@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  jitendrapp1:
+    image: jitendraapp:v1
+    build: .
+    container_name: jitendraC11
+    ports:
+      - "1256:80"
